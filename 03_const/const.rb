@@ -10,3 +10,5 @@ NUMBER = 1000
 
 puts "Число: #{NUMBER}"
 
+
+
