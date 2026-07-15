@@ -34,7 +34,7 @@ number2 = gets.to_i
 case number
 when 1..10000
     puts 1
-when number 0
+when 0
     puts 0
 when number -10000..-1
     puts -1
