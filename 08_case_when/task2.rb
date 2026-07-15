@@ -12,6 +12,8 @@
 
 # Вариант первый
 
+print "Введите число: "
+
 number = gets.to_i
 
 case
