@@ -10,3 +10,17 @@
 
 =end 
 
+# Вариант первый
+
+number = gets.to_i
+
+case
+when number > 0
+    puts 1
+when number == 0
+    puts 0
+when number < 0
+    puts -1
+end
+
+
