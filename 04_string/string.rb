@@ -32,3 +32,4 @@ print "Введите строку: "
 string_text = gets.chomp
 
 puts "Строка содержит кол-ство символов: #{string_text.length}"
+puts "Строка в верхнем регистре:  #{string_text.upcase}"
