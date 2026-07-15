@@ -21,3 +21,4 @@ puts "Имя: #{NAMES}"
 puts "My name: #{name}\n" * 3
 
 puts "2".class # получим string
+puts "2".to_i.class
