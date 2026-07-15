@@ -31,7 +31,7 @@ print "Введите число: "
 
 number2 = gets.to_i
 
-case number
+case number2
 when 1..10000
     puts 1
 when 0
