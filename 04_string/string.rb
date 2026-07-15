@@ -25,4 +25,10 @@ puts "2".to_i.class # получим integer
 
 puts "Hello" + "Hello2" # сложение строк
 
+# Методы для работы со строками
 
+print "Введите строку: "
+
+string_text = gets.chomp
+
+puts "Строка содержит кол-ство символов: #{string_text.length}"
