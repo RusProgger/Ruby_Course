@@ -1,15 +1,23 @@
 # Напишем программу для вывода чисел на экран
 
-print "Введите число: "
+count = 3
 
-number_user = gets.to_i
+loop do
+  if count == 0
+    puts "Закончились попытки!!"
+    break
+  end
 
-if number_user > 5
-    puts "Ошибка! ЧИсло не должно превышать 5"
-else 
+  print "Введите число. Попыток у вас #{count}: "
+  number_user = gets.to_i
+
+  if number_user > 5
+    puts "Ошибка! Число не должно превышать 5"
+    count -= 1
+  else
     for i in 1..number_user
-    # проверка если число больше 5 
-    puts "Cчетчик: #{i}"
+      puts "Счетчик: #{i}"
     end
+    break
+  end
 end
-
