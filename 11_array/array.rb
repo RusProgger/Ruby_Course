@@ -22,4 +22,7 @@ for user in user_person
     count += 1
 end
 
-#puts user_person
+
+# Вывод последнего елемента 
+puts "Вывод последнего елемента массива: #{user_person[-1]}"
+
