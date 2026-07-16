@@ -29,3 +29,9 @@ puts "Вывод последнего елемента массива: #{user_pe
 user_person[-1] = "Anjela"
 
 puts "Заменили последний елемент Dasha на #{user_person[-1]}"
+
+# добавляем елемент в конец массива << 
+
+user_person << "Max"
+
+puts user_person
