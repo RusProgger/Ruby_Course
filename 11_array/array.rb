@@ -35,3 +35,6 @@ puts "Заменили последний елемент Dasha на #{user_perso
 user_person << "Max"
 
 puts user_person
+
+# или push 
+
