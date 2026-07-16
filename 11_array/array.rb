@@ -38,3 +38,6 @@ puts user_person
 
 # или push 
 
+user_person.push("Lena")
+
+print user_person
